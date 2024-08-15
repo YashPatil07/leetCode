@@ -11,5 +11,6 @@ class Solution:
             if nums[i] != nums[i - 1]:
                 nums[write_index] = nums[i]
                 write_index += 1
-        
+                
+                
         return write_index
